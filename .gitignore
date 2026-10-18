@@ -14,13 +14,28 @@ out
 .idea
 
 # gradle
-build
-.gradle
+/build/
+/.gradle/
+
+# Minecraft / NeoForge generated output
+/bin/
+/run/
+/runs/
+/run-data/
+/repo/
+*.log
+hs_err_pid*
+replay_pid*
+
+# generated data caches
+src/generated/**/.cache/
 
 # other
 eclipse
-run
-runs
-run-data
 
-repo
+# operating system / editor temporary files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
